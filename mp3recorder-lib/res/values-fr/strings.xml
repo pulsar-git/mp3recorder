@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="audio_pref_name">Préférences Audio</string>
+	<string name="title_file_list">Liste des Enregistrements</string>
+	<string name="state_rdy">Prêt à enregistrer</string>
+	<string name="state_rec">Enregistrement</string>
+	<string name="state_pause">En pause</string>
+	
+	<string name="context_play">Lecture</string>
+	<string name="context_rename">Renommer</string>
+	<string name="context_delete">Supprimer</string>
+	<string name="context_share">Partager</string>
+	<string name="context_append">Reprendre l\'enregistrement</string>
+	
+	<string name="context_share_title">Choisir une méthode</string>
+	<string name="context_dialog_rename_title">Renommer le fichier</string>
+	
+	
+	<!-- Preference Strings -->
+	<string name="pref_title">Paramètres</string>
+	
+	<string name="interface_category">Interface</string>
+	<string name="advanced_category">Avancé</string>
+	<string name="recording_category">Enregistrement</string>
+	<string name="report_category">Faire un rapport</string>
+	<string name="report_title">Rapporter un problème</string>
+	<string name="report_desc">Envoyer un email contenant les informations sur le device pour aider à corriger des problèmes</string>
+	
+	<string name="stealth_title">Icône banalisée</string>
+	<string name="stealth_desc">Utiliser une icone banalisée pour les enregistrements</string>
+	
+	<string name="preserve_orientation_title">Orientation</string>
+	<string name="preserve_orientation_desc">Conserver l\'orientation meme lorsque le device change de sens</string>
+	
+	<string name="mp3_quality_title">Qualité du MP3</string>
+	<string name="mp3_quality_desc">Changer la qualité d\'enregistrement MP3</string>
+	
+	<string name="bitrate_title">Bitrate du MP3</string>
+	<string name="bitrate_desc">Changer le bitrate du MP3</string>
+	
+	<string name="rec_frequency_tile">Frequence</string>
+	<string name="rec_frequency_desc">Choisir la fréquence d\'enregistrement</string>
+	
+	<string name="source_title">Source audio</string>
+	<string name="source_desc">Choisir la source d\'enregistrement audio</string>
+	
+	<string name="encoding_title">Encodage</string>
+	<string name="encoding_desc">Choisir le type d\'encodage pour l\'enregistrement</string>
+	
+	<string name="channel_title">Canaux</string>
+	<string name="channel_desc">Définir les paramètres sur les canaux d\'enregistrements</string>
+	
+</resources>

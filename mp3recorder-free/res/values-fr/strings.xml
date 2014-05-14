@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HiRecorder MP3 Free</string>
+    <string name="btn_register_summary">Debloquez la version complète gratuitement!</string>
+    
+    <string name="dialog_data_connection_title">Probleme de connection</string>
+    <string name="dialog_data_connection_message">Une connection data est necessaire pour débloquer l\'application!</string>
+    
+    <string name="dialog_error_network_title">Erreur du réseau</string>
+    <string name="dialog_error_network_message">Impossible de se connecter aux servers, merci de bien vouloir vérifier vos parametres réseaux</string>
+    
+    <string name="dialog_register_title">Informations d\'enregistrement</string>
+    <string name="dialog_register_message_1">Pour débloquer la version complète et enlever la limite de 10 minutes, cliquez sur OK puis accumulez 100 points. Vous avez actuellement :</string>
+    <string name="dialog_register_message_2"> /100 Points. Vous avez sinon également l\'option d\'aller sur le market et d\'acheter l\'application complète, cependant cela est payant.Merci pour votre support</string>
+    <string name="dialog_register_btnOK">Confirmer</string>
+    <string name="dialog_register_btnCancel">Annuler</string>
+    
+    <string name="dialog_waiting_title">Enregistrement</string>
+    <string name="dialog_waiting_message">Nous récupérons vos informations concernant le débloquage de l\'application</string>
+    
+    <string name="dialog_registering_title">Vous etes enregistré!</string>
+    <string name="dialog_registering_message">Merci pour votre support! L\'application est maintenant enregistrée et la limite de 10 minutes supprimée!</string>    
+</resources>

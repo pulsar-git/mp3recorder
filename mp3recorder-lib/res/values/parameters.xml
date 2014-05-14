@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<!-- Parameters -->
+	<string name="default_bitrate">48</string>
+	<string name="default_quality">5</string>
+	<string name="default_source">0</string>
+	<string name="default_channel">1</string>
+	<string name="default_frequency">44100</string>
+	<string name="default_encoding">2</string>
+</resources>

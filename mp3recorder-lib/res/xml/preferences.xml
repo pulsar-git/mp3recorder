@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/pref_title">
+     <PreferenceCategory android:title="@string/interface_category">
+         <ListPreference
+            android:entries="@array/bitrate_array"
+            android:entryValues="@array/bitrate_array_values"
+            android:key="MP3_BRATE"
+            android:title="@string/bitrate_title"
+            android:summary="@string/bitrate_desc"
+            android:defaultValue="@string/default_bitrate"
+            />
+          <ListPreference
+            android:entries="@array/mp3_quality"
+            android:entryValues="@array/mp3_quality_values"
+            android:key="MP3_QUALITY"
+            android:title="@string/mp3_quality_title"
+            android:summary="@string/mp3_quality_desc"
+            android:defaultValue="@string/default_quality"
+            />
+     </PreferenceCategory>
+<!--
+    <PreferenceCategory android:title="@string/interface_category">
+        <CheckBoxPreference android:title="@string/stealth_title" android:summary="@string/stealth_desc" android:key="stealthMode"/>
+        <CheckBoxPreference android:title="@string/preserve_orientation_title" android:summary="@string/preserve_orientation_desc" android:key="preserveOrientation"/>
+    </PreferenceCategory>
+-->
+    <PreferenceCategory android:title="@string/advanced_category">
+        <ListPreference
+            android:entries="@array/recording_frequency"
+            android:entryValues="@array/recording_frequency_values"
+            android:key="AUDIO_FREQ"
+            android:title="@string/rec_frequency_tile"
+            android:summary="@string/rec_frequency_desc"
+            android:defaultValue="@string/default_frequency"
+            />
+        <ListPreference
+            android:entries="@array/source"
+            android:entryValues="@array/source_values"
+            android:key="AUDIO_SOURCE"
+            android:title="@string/source_title"
+            android:summary="@string/source_desc"
+            android:defaultValue="@string/default_source"
+            />
+        <ListPreference
+            android:entries="@array/audio_channel"
+            android:entryValues="@array/audio_channel_values"
+            android:key="AUDIO_CONFIG"
+            android:title="@string/channel_title"
+            android:summary="@string/channel_desc"
+            android:defaultValue="@string/default_channel"
+            />
+        <ListPreference
+            android:entries="@array/encoding"
+            android:entryValues="@array/encoding_values"
+            android:key="AUDIO_FORMAT"
+            android:title="@string/encoding_title"
+            android:summary="@string/encoding_desc"
+            android:defaultValue="@string/default_encoding"
+            />
+    </PreferenceCategory>
+    <!-- 
+    <PreferenceCategory android:title="@string/advanced_category">
+    </PreferenceCategory>
+     -->
+
+</PreferenceScreen>

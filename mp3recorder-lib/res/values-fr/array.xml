@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="bitrate_array">
+        <item >8</item>
+        <item >16</item>
+        <item >24</item>
+        <item >32 (Voix)</item>
+        <item >40</item>
+        <item >48</item>
+        <item >56</item>
+        <item >64</item>
+        <item >80</item>
+        <item >96</item>
+        <item >112</item>
+        <item >128 (Qualité CD)</item>
+    </string-array>
+    
+    <string-array name="bitrate_array_values">
+        <item >8</item>
+        <item >16</item>
+        <item >24</item>
+        <item >32</item>
+        <item >40</item>
+        <item >48</item>
+        <item >56</item>
+        <item >64</item>
+        <item >80</item>
+        <item >96</item>
+        <item >112</item>
+        <item >128</item>
+    </string-array>
+    
+    <string-array name="recording_frequency">
+        <item >Défaut</item>
+        <item >44kHz</item>
+        <item >48kHz</item>
+        <item >22kHz</item>
+    </string-array>
+    
+    <string-array name="recording_frequency_values">
+        <item >44100</item>
+        <item >44100</item>
+        <item >48kHz</item>
+        <item >22kHz</item>
+    </string-array>
+    
+  
+    
+    <!-- Recording Frequency -->
+    <string-array name="mp3_quality">
+        <item >0 (meilleure qualité)</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5 (standard)</item>
+        <item >6</item>
+        <item >7</item>
+        <item >8</item>
+        <item >9 (plus rapide)</item>
+    </string-array>
+    
+    <string-array name="mp3_quality_values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+        <item >8</item>
+        <item >9</item>
+    </string-array>
+    
+    <string-array name="source">
+        <item >Default</item>
+        <item >Micro</item>
+        <item >Caméra</item>
+        <item >Appels vocaux</item>
+        <item >Appels descendants</item>
+        <item >Reconnaissance vocale</item>
+        <item >Appels montants</item>
+    </string-array>
+    <string-array name="source_values">
+        <item >0</item>
+        <item >1</item>
+        <item >5</item>
+        <item >4</item>
+        <item >3</item>
+        <item >6</item>
+        <item >2</item>
+    </string-array>
+    
+     <string-array name="audio_channel">
+        <item >Defaut</item>
+        <item >Mono</item>
+        <item >Stéreo</item>
+    </string-array>
+    <string-array name="audio_channel_values">
+        <item >1</item>
+        <item >16</item>
+        <item >12</item>
+    </string-array>
+
+     <string-array name="encoding">
+        <item >Defaut</item>
+        <item >8 bits</item>
+        <item >16 bits</item>
+    </string-array>
+    <string-array name="encoding_values">
+        <item >1</item>
+        <item >3</item>
+        <item >2</item>
+    </string-array>
+    
+</resources>

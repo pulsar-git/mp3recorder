@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+	<LinearLayout android:layout_width="fill_parent"
+	    android:id="@+id/mainLayout"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+		<ImageView
+		    android:id="@+id/imageView2"
+		    android:layout_width="match_parent"
+		    android:layout_height="100dp"
+		    android:src="@drawable/equilizer" />
+	
+	    <LinearLayout
+	        android:id="@+id/linearLayout2"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center" >
+
+	        <ImageButton
+	            android:id="@+id/imageButton1"
+	            android:layout_width="60dp"
+	            android:layout_height="60dp"
+	            android:adjustViewBounds="true"
+	            android:background="@android:color/transparent"
+	            android:paddingRight="1dp"
+	            android:scaleType="fitStart"
+	            android:src="@drawable/filelist_btn" />
+	
+	        <ImageButton
+	            android:id="@+id/imageButtonRec"
+	            android:layout_width="60dp"
+	            android:layout_height="60dp"
+	            android:paddingRight="3dp"
+	            android:adjustViewBounds="true"
+	            android:background="@android:color/transparent"
+	            android:scaleType="fitStart"
+	            android:src="@drawable/rec_btn" />
+	
+	        <ImageButton
+	            android:id="@+id/imageButtonPause"
+	            android:layout_width="60dp"
+	            android:layout_height="60dp"
+	            android:paddingRight="3dp"
+	            android:adjustViewBounds="true"
+	            android:background="@android:color/transparent"
+	            android:scaleType="fitStart"
+	            android:src="@drawable/pause_btn" />
+	
+	        <ImageButton
+	            android:id="@+id/imageButtonStop"
+	            android:layout_width="60dp"
+	            android:layout_height="60dp"
+	            android:paddingRight="3dp"
+	            android:adjustViewBounds="true"
+	            android:background="@android:color/transparent"
+	            android:scaleType="fitStart"
+	            android:src="@drawable/stop_btn" />
+		
+		<ImageButton
+	            android:id="@+id/imageButton2"
+	            android:layout_width="60dp"
+	            android:layout_height="60dp"
+	            android:paddingRight="3dp"
+	            android:adjustViewBounds="true"
+	            android:background="@android:color/transparent"
+	            android:scaleType="fitStart"
+	            android:src="@drawable/config_btn" />
+
+	    </LinearLayout>
+	
+	    <TextView
+	        android:id="@+id/lblfileInfo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Recording: test.mp3 | 25KB"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	    
+	    <com.hilifes.record.HistogramView
+	        android:id="@+id/viewHist"
+	        android:layout_width="match_parent"
+	        android:layout_height="37dp" />
+	
+	</LinearLayout>

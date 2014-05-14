@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="audio_pref_name">Audio Preferences</string>
+	<string name="title_file_list">List of Records</string>
+	<string name="state_rdy">Ready to Record</string>
+	<string name="state_rec">Recording</string>
+	<string name="state_pause">Paused</string>
+	
+	
+	<string name="context_play">Play</string>
+	<string name="context_rename">Rename</string>
+	<string name="context_delete">Delete</string>
+	<string name="context_share">Share</string>
+	<string name="context_append">Append Record</string>
+
+	
+	<string name="context_share_title">Select method</string>
+	<string name="context_dialog_rename_title">Rename file</string>
+	
+	
+	<!-- Preference Strings -->
+	<string name="pref_title">Parameters</string>
+	
+	<string name="interface_category">Interface</string>
+	<string name="advanced_category">Advanced</string>
+	<string name="recording_category">Recording</string>
+	<string name="report_category">Make a Report</string>
+	<string name="report_title">Report a problem</string>
+	<string name="report_desc">Send an email containing device information to make a report</string>
+	
+	<string name="stealth_title">Stealth Icon</string>
+	<string name="stealth_desc">Use an alternative Icon when recording to be stealth</string>
+	
+	<string name="preserve_orientation_title">Preserve Orientation</string>
+	<string name="preserve_orientation_desc">Keep the device orientation</string>
+	
+	<string name="mp3_quality_title">MP3 Quality</string>
+	<string name="mp3_quality_desc">Choose the Quality of MP3 Encoding</string>
+	
+	<string name="bitrate_title">MP3 Bitrate</string>
+	<string name="bitrate_desc">Choose the Bitrate of the MP3</string>
+	
+	<string name="rec_frequency_tile">Recording Frequency</string>
+	<string name="rec_frequency_desc">Choose the Frequency of Recording</string>
+	
+	<string name="source_title">Recording Source</string>
+	<string name="source_desc">Choose the Recording Source</string>
+	
+	<string name="encoding_title">Recording Encoding</string>
+	<string name="encoding_desc">Choose the Recording Encoding</string>
+	
+	<string name="channel_title">Channel Configuration</string>
+	<string name="channel_desc">Choose the Recording Channel Configuration</string>
+	
+</resources>

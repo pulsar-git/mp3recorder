@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HiRecorder MP3 Free</string>
+    <string name="btn_register_summary">Unlock unlimited version for free!</string>
+    
+    <string name="dialog_data_connection_title">Connectivity Missing</string>
+    <string name="dialog_data_connection_message">A Data Connection is needed to unlock the application!</string>
+    
+    <string name="dialog_error_network_title">Network Error</string>
+    <string name="dialog_error_network_message">Cannot contact servers, please verify your network connection</string>
+    
+    <string name="dialog_register_title">Free Register Information</string>
+    <string name="dialog_register_message_1">To unlock the full version please press OK then accumulate 100 points. You currently have :</string>
+    <string name="dialog_register_message_2"> /100 Points. Another way is to go to the market and buy the full application. Thanks for your support</string>
+    <string name="dialog_register_btnOK">OK</string>
+    <string name="dialog_register_btnCancel">Cancel</string>
+    
+    <string name="dialog_waiting_title">Registration</string>
+    <string name="dialog_waiting_message">Retrieving information</string>
+    
+    <string name="dialog_registering_title">Registration</string>
+    <string name="dialog_registering_message">Thanks a lot for your support. Your application is now registered!</string>    
+</resources>
