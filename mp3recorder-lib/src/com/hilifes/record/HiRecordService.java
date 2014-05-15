@@ -29,7 +29,7 @@ public class HiRecordService extends Service {
 	public static final String ACTION_GET_STATE 	= "com.hilifes.hirecord.action.GET_STATE";
 
 	//Do not broadcast amplitude message when not needed!!
-	public static final String UPDATE_SERVICE_STATE 	= "com.hilifes.hirecord.action.UPDATE_AMPLITUDE";
+	public static final String UPDATE_SERVICE_STATE = "com.hilifes.hirecord.action.UPDATE_AMPLITUDE";
 	public static final String PARAM_AMPLITUDE 		= "PARAM_AMPLITUDE";
 	public static final String PARAM_SIZE		 	= "PARAM_SIZE";
 	public static final String PARAM_FILENAME 		= "PARAM_FILENAME";
@@ -72,8 +72,6 @@ public class HiRecordService extends Service {
 		onHandleIntent(intent);
 		return START_STICKY;
 	}
-
-
 
 	protected void goForeground()
 	{
