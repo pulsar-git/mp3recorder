@@ -50,4 +50,8 @@
 	<string name="channel_title">Canaux</string>
 	<string name="channel_desc">Définir les paramètres sur les canaux d\'enregistrements</string>
 	
+	<string name="ads_preferences"> Publicité Google</string>
+	<string name="ads_title">Enlever la publicité</string>
+	<string name="ads_desc">Les publicités sont ma seule source de revenue. L\'application les reactive de temps en temps automatiquement.(Redémarrage de l\'application necessaire)</string>
+	
 </resources>

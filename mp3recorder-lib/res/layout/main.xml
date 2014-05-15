@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
-	<LinearLayout android:layout_width="fill_parent"
-	    android:id="@+id/mainLayout"
-	    android:layout_height="fill_parent"
+	<LinearLayout android:layout_width="fill_parent" 
+	    android:id="@+id/mainLayout" android:layout_height="fill_parent" 
 	    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
-
+	    
 		<ImageView
 		    android:id="@+id/imageView1"
 		    android:layout_width="match_parent"
@@ -76,12 +74,11 @@
 	        android:layout_height="wrap_content"
 	        android:text="Recording: test.mp3 | 25KB"
 	        android:textAppearance="?android:attr/textAppearanceSmall"/>
-	    
+	    
 	    <com.hilifes.record.HistogramView
 	        android:id="@+id/viewHist"
 	        android:layout_width="match_parent"
 	        android:layout_height="50dp" />
-
 	    <ImageView
 	        android:id="@+id/imageView2"
 	        android:layout_width="match_parent"

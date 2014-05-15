@@ -29,13 +29,15 @@ public class FreeActivity extends HiRecordMP3Activity {
 
 		super.onCreate(savedInstanceState);
 		
-		LinearLayout l =(LinearLayout)findViewById(R.id.mainLayout);
-		//l.addView(getLayoutInflater().inflate(R.layout.tapjoy, null),0);
-		l.addView(getLayoutInflater().inflate(R.layout.ads, null),0);
+		if(!GlobalParameters.adsDisabled){
+			LinearLayout l =(LinearLayout)findViewById(R.id.mainLayout);
+			//l.addView(getLayoutInflater().inflate(R.layout.tapjoy, null),0);
+			l.addView(getLayoutInflater().inflate(R.layout.ads, null),0);
 		
-		// Look up the AdView as a resource and load a request.*
-	    AdView adView = (AdView)this.findViewById(R.id.adView); 
-	    AdRequest adRequest = new AdRequest.Builder().build();
-	    adView.loadAd(adRequest);
+			// Look up the AdView as a resource and load a request.*
+			AdView adView = (AdView)this.findViewById(R.id.adView); 
+			AdRequest adRequest = new AdRequest.Builder().build();
+			adView.loadAd(adRequest);
+		}
 	}
 }

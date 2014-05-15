@@ -62,5 +62,9 @@
     <PreferenceCategory android:title="@string/advanced_category">
     </PreferenceCategory>
      -->
+     
+     <PreferenceCategory android:title="@string/ads_preferences">
+        <CheckBoxPreference android:title="@string/ads_title" android:summary="@string/ads_desc" android:key="adsDisabled" android:defaultValue="false"/>
+    </PreferenceCategory>
 
 </PreferenceScreen>

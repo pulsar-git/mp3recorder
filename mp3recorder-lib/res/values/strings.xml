@@ -52,4 +52,8 @@
 	<string name="channel_title">Channel Configuration</string>
 	<string name="channel_desc">Choose the Recording Channel Configuration</string>
 	
+	<string name="ads_preferences"> Google Ads</string>
+	<string name="ads_title">Remove Ads from main screen</string>
+	<string name="ads_desc">Ads are what provides me some revenue. The application will reset that flag from time to time. Please think about donating to me if ever you keep the flag disactivated (Need to reboot application)</string>
+	
 </resources>

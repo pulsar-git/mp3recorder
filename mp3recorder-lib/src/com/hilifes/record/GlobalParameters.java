@@ -23,6 +23,8 @@ public class GlobalParameters {
 	public static int mp3Quality=3;
 	public static final int mp3QualityDefault=3;
 	public static int mp3Mode=3;
+	
+	public static boolean adsDisabled;
 
 	public static Class<?> activityClass=HiRecordService.class;
 	public static Class<?> serviceClass = HiRecordMP3Activity.class;
@@ -59,5 +61,6 @@ public class GlobalParameters {
 		mp3Quality = tryLoadParams(settings,PARAM_MP3_QUALITY, mp3QualityDefault);
 		audioSource = tryLoadParams(settings,PARAM_AUDIO_SOURCE,audioSourceDefault);
 		audioFormat = tryLoadParams(settings,PARAM_AUDIO_FORMAT,audioFormatDefault);
+		adsDisabled  = settings.getBoolean("adsDisabled", false);
 	}
 }
